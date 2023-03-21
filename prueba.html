@@ -6,10 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<div>
+<h1>HELADERIA</h1>
 
-<p1>Prueba</p1>
-<h1>modificacion</h1>
+<h3>Añade un producto:</h3>
+<form action="messageSubmit.html">
+</div>
+<div>
+<label for="Categoria">Categoria</label>
+<select name="Categoria" required>
+    <option value="">Seleccione Categoria</option>
+    <option value="Helado">Helado</option>
+    <option value="Torta">Torta</option>
+    </select>
 
+</div>
+<div>
+    <label for="Sabor">Sabor:</label>
+    <input name="Sabor" id="Sabor" type="text" required />
+</div>
+<div>
+    <Label for="Cantidad">Cantidad:</Label>
+    <input name="Cantidad" id="Cantidad" type="number" min="1" max="20" required>
+</div>
+<div>
+    <label for="Telefono">Telefono:</label>
+            <input id="Telefono" type="number" required max="9"/>
+</div>
+
+<div>
+    <label for="Direccion">Dirección</label>
+    <input id="Direccion" type="text" autocomplete="off" required min="8" />
+</div>
+<div>
+    <input type="submit" value="ENVIAR">
+</div>
+
+</form>
 
 <body>
     
